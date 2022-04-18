@@ -1,0 +1,14 @@
+.ingredient-grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 5px;
+  column-gap: 40px;
+  justify-self: flex-start;
+}
+.ingredient-grid span{
+  padding: 5px;
+}
+.ingredient-grid span:nth-child(4n),
+.ingredient-grid span:nth-child(4n-1){
+  background: #e7ddf6;
+}
